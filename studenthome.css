@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+    font-family: "Poppins";
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Set a light background color */
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #34495E;
+}
+
+.tab {
+    margin: 20px;
+}
+
+table {
+    display: flex;
+    align-items: left;
+  }
+  tbody {
+      display: flex;
+      flex-direction: row;
+  }
+  tr {
+      display: flex;
+      flex-direction: column;
+  }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #34495E;
+    color: #fff;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+/* Basic styling for the button */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #db3434;
+    color: white;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    text-decoration: none; 
+    width: 200px;
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  
+
+  button:hover {
+    background-color: rgb(189, 44, 22); 
+  }
+  
+  button:active {
+    background-color: rgb(255, 0, 0); 
+  }
+  
+  
+  
